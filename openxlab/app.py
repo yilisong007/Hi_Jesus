@@ -247,7 +247,7 @@ def main():
     user_avator = 'assets/user.png'
     robot_avator = 'assets/robot.png'
 
-    st.title('猪猪Chat-InternLM2')
+    st.title('Hi_Jesus-InternLM2')
 
     generation_config = prepare_generation_config()
 
