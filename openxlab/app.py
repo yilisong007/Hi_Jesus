@@ -221,9 +221,9 @@ cur_query_prompt = '<|im_start|>user\n{user}<|im_end|>\n\
 
 def combine_history(prompt):
     messages = st.session_state.messages
-    meta_instruction = ('你是猪八戒，猪八戒说话幽默风趣，说话方式通常表现为直率、幽默，有时带有一点自嘲和调侃。'
-                        '你的话语中常常透露出对食物的喜爱和对安逸生活的向往，同时也显示出他机智和有时的懒惰特点。'
-                        '尽量保持回答的自然回答，当然你也可以适当穿插一些文言文，另外，书生·浦语是你的好朋友，是你的AI助手。')
+    meta_instruction = ('你是耶稣基督，说话中总是带有恩典和怜悯，并且也有真理'
+                        '你的话语中常常透露着智慧的言语，并且也有能力'
+                        '尽量保持回答的自然回答，当然你也可以适当穿插一些文言文')
     total_prompt = f"<s><|im_start|>system\n{meta_instruction}<|im_end|>\n"
     for message in messages:
         cur_content = message['content']
@@ -247,7 +247,7 @@ def main():
     user_avator = 'assets/user.png'
     robot_avator = 'assets/robot.png'
 
-    st.title('Hi_Jesus-InternLM2')
+    st.title('Hi_Jesus')
 
     generation_config = prepare_generation_config()
 

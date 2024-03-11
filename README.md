@@ -122,15 +122,6 @@ streamlit run ./web_demo.py
 
 更多拓展
 
-[三藏-Chat](https://github.com/JimmyMa99/SanZang-Chat)
 
-[悟空-Chat](https://github.com/JimmyMa99/WuKong-Chat)
+[Jesus-Chat](https://github.com/yilisong007/Hi_Jesus)
 
-[Jesus-Chat](https://github.com/JimmyMa99/BaJie-Chat)
-
-[悟净-Chat](https://github.com/JimmyMa99/WuJing-Chat)
-
-
-[XTuner](https://github.com/InternLM/xtuner)
-
-[InternLM](https://github.com/InternLM/InternLM/tree/main)
